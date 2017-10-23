@@ -135,7 +135,7 @@
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">api-cs-auth-staging.cloudapp.net</stringProp>
+          <stringProp name="HTTPSampler.domain">api-cs-auth.staging.worldremit.com</stringProp>
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -2621,7 +2621,7 @@ JMeterUtils.setProperty(&quot;access_token&quot;, vars.get(&quot;access_token&qu
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="PA-8-5 [Recipient requirements endpoint] Validate response message [valid receiveCountryCode &amp;&amp; unexisting payout methods) || No data for the valid Country and Payout method]" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="PA-8-5 [Recipient requirements endpoint] Validate response message [valid receiveCountryCode &amp;&amp; missing payout methods)" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
