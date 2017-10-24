@@ -2621,7 +2621,7 @@ JMeterUtils.setProperty(&quot;access_token&quot;, vars.get(&quot;access_token&qu
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="PA-8-5 [Recipient requirements endpoint] Validate response message [valid receiveCountryCode &amp;&amp; missing payout methods)" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="PA-8-5 [Recipient requirements endpoint] Validate response message [valid receiveCountryCode &amp;&amp; missing payout methods)" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -7660,7 +7660,7 @@ JMeterUtils.setProperty(&quot;transactionid2&quot;, vars.get(&quot;transactionid
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="PA-11-3 Invalid TransactionID" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="PA-11-3 Invalid TransactionID" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -7738,7 +7738,7 @@ JMeterUtils.setProperty(&quot;transactionid2&quot;, vars.get(&quot;transactionid
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="PA-11-4 Not Existing transactionId" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="PA-11-4 Not Existing transactionId" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
